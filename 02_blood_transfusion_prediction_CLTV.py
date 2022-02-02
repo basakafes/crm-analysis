@@ -2,6 +2,15 @@
 # Blood Transfusion Prediction with BG-NBD & Gamma-Gamma
 ##########################################################
 
+# Çalışma Tanımı: "Knowledge discovery on RFM model using Bernoulli sequence" makalesi doğrultusunda 
+# Tayvan'daki Hsin-Chu Şehrindeki Kan Transfüzyon Hizmet Merkezinin donör veri tabanına ait veriler kullanılmıştır. Veri edinme tarihi 2008'dir.
+# Amaç: Geçmişte yapılan kan bağışlarını göz önünde bulundurarak verilerin edinildiği tarihten 12 ay sonrası için olası kan bağışı tahminlerini elde etmektir.
+# Bu çalışmanın arka planda sağlık alanında herhangi bir bilimsel dayanağı yoktur.
+# Project Description: In line with the article "Knowledge discovery on RFM model using Bernoulli sequence", data from the donor database of the 
+# Blood Transfusion Service Center in Hsin-Chu City, Taiwan were used. Data acquisition date is 2008.
+# Purpose: To obtain estimates of possible blood donations for 12 months from the date of data acquisition, taking into account past blood donations.
+# This study has no scientific basis in the background of health.
+
 # Kaynaklar / Sources:
 # https://5cef0b7b43e7a42fd019406d30fe2e79ab6b0d1f.vetisonline.com/science/article/pii/S0957417408004508?via%3Dihub
 # https://archive.ics.uci.edu/ml/datasets/Blood+Transfusion+Service+Center
