@@ -67,10 +67,10 @@ replace_with_thresholds(df, "V3")
 df.describe([.90,.99]).T
 
 cltv_dataframe = pd.DataFrame()
-cltv_dataframe["recency"] = (df["V4"] - df["V1"]) / 7
+cltv_dataframe["recency"] = (df["V4"] - df["V1"]) * 4
 cltv_dataframe["frequency"] = df["V2"]
 cltv_dataframe["monetary"] = df["V3"] / df["V2"]
-cltv_dataframe["T"] = df["V4"] / 7
+cltv_dataframe["T"] = df["V4"] * 4
 
 # BG/NBD, Gamma-Gamma Modellerinin Kurulması ve CLTV'nin Hesaplanması:
 # Establishment of BG/NBD, Gamma-Gamma Models and Calculation of CLTV
